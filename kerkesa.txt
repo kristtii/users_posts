@@ -1,0 +1,7 @@
+1- login
+2- logout
+3- register
+4- Create post
+5- Edit post
+6- Delete post
+7- Show posts

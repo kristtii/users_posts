@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% if error_message%}
+    <h3>{{error_message}}</h3>
+    {% endif %}
+    <form action="/user/login/" method="post">
+        Email: <input type="text" name="email"><br>
+        <button type="submit">Log in</button>
+    </form>
+
+    <a href="/user/create/">Register</a>
+</body>
+</html>
